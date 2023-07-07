@@ -1,0 +1,31 @@
+@media (min-width: 0px) and (max-width: 399px) {
+    .device-image {
+        content: url(./smartphone.png);
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 799px) {
+    .device-image {
+        content: url(./tablet.png);
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    .device-image {
+        content: url(./laptop.png);
+    }
+}
+
+@media (min-width: 1200px) {
+    .device-image {
+        content: url(./tv.png);
+    }
+}
+
+.device-image {}
+
+img {
+    width: 100%;
+    display: block;
+}
